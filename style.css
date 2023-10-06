@@ -52,11 +52,11 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 .image{
-    width: 20%;
-    height: 20%;
+    width: 50%;
+    height: 60%;
     position: absolute;
     left: 50%;
-    bottom: 0;
+    bottom: 100px ;
 }
 /* .image image{
     height: 50%;
