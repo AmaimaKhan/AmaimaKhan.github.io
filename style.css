@@ -58,14 +58,3 @@ nav ul li a:hover {
     left: 50%;
     bottom: 100px ;
 }
-/* .image image{
-    height: 50%;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translate(-50%);
-    transition: bottom ls,left ls;
-}
-.image :hover.image{
-    left: 45%;
-} */
