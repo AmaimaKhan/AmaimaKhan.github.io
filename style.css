@@ -11,11 +11,12 @@
 }
 nav{
     display: flex;
-    width: 80%;
+    width: 95%;
     margin: auto;
     padding: 20px;
     align-items: center;
     justify-content: space-between;
+    background-color: blanchedalmond;
 }
 nav ul li{
     display: inline-block;
@@ -51,14 +52,14 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 .image{
-    width: 45%;
-    height: 80%;
+    width: 20%;
+    height: 20%;
     position: absolute;
+    left: 50%;
     bottom: 0;
-    right: 100px;
 }
-.image image{
-    height: 100%;
+/* .image image{
+    height: 50%;
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -67,4 +68,4 @@ nav ul li a:hover {
 }
 .image :hover.image{
     left: 45%;
-}
+} */
