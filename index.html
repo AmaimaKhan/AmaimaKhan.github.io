@@ -3,138 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html practice</title>
-    <style>
-        body {
-            background-color: darkgray;
-        }
-        section{
-            background-color: rgba(255, 255, 255, 0.5);
-            border: 3px dotted black;
-            padding: 10px;
-        }
-        header {
-            background-color: black;
-            position: absolute;
-            width: 100%;
-            left: 0;
-            top: 0;
-        }
-        header li{
-            display: inline;
-        }
-        nav{
-            display: flex;
-        }
-        nav > a{
-            height: 55px;
-        }
-        nav > a >img{
-            height: 100%;
-        }
-        header ul{
-            width: 100%;
-            display: flex;
-            justify-content: space-evenly;
-        }
-        header >nav >ul >li >a{
-            color: aliceblue;
-            text-decoration: none;
-            font-size: 20px;
-        }
-        footer li{
-            display: inline;
-        }
-        nav{
-            display: flex;
-        }
-        footer > nav > ul > li {
-            color: aliceblue;
-            text-decoration: none;
-            font-size: 20px;
-        }
-        footer ul{
-            width: 100%;
-            display: flex;
-            justify-content: space-evenly;
-        }
-        main {
-            margin-top: 90px;
-        }
-        .section-heading {
-            color: navy;
-        }
-        #first-section{
-            font-family: "Courier New", Courier, nonstop;
-        }
-    </style>
+    <title> Portfolio </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav> 
-            <a href="https://knowledge.tech/">
-                <img src="logo.png" alt></a>
+    <div class="main"> 
+        <nav>
+            <img src="logo.png" class="logo">
             <ul>
-                <li> <a href="About">About </a></li>
-                <li><a href="Home"> Home </a></li>
-                <li><a href="contact"> contact </a></li>
-                <a></a>             
+                <li> <a href="#"> Home </a></li>
+                <li> <a href="#"> Services </a></li>
+                <li> <a href="#"> Portfolio </a></li>
+                <li> <a href="#"> About </a></li>
             </ul>
         </nav>
-    </header>
-    <main>
-        <h1 style="color: red; text-decoration: underline;"> This is a new html page </h1>
-    <hr>
-    <section id="first-section">   
-        <h2 class="section-heading"> paragraph and heading </h2>
-        <p> My name is Amaima.
-            I'm 20 years old
-        </p>
-            <h1>Hello</h1>
-            <h2>Hello</h2>
-            <h3>Hello</h3>
-            <h4>Hello</h4>
-            <h5>Hello</h5>
-            <h6>Hello</h6>
-        </section>
-        <hr>
-        <section id="first-section">
-        <h2 class="section-heading">Links and Bottons</h2>
-        <a href="https://google.com">Link</a>
-        <button>Press me</button>
-        </section>
-        <hr>
-        <section>
-        <h2 class="section-heading">Lists</h2>
-            <ul> 
-                <li>   Hi </li>
-                <li> Hello </li>
-                <li> Hey </li>
-            </ul>
-            <ol>
-                <li>Hei</li>
-                <li>Hello</li>
-                <li>Hey</li>
-            </ol>
-            <pre>
-                <code>
-                a=10
-                b=20
-                print(a+b)
-                def func(a,b):
-                    return a+b
-                </code>    
-            </pre>                
-        </section>
-        <hr>
-        </main>
-        <footer>
-            <nav>
-                <ul>
-                    <li> <a href="adress"> Adress </a></li>
-                    <li> <a href="phone"> phone </a></li>
-                </ul>
-            </nav>
-        </footer>
+        <div class="date">
+            <h1> I'm Amaima </h1>
+            <p> This is my official website  
+                <br> This is my first website project
+            </p>
+        <a href="#"> Download CV</a>
+        </div>
+        <div class="image">
+            <img src="skies.jpg" class="image">
+        </div>
+        <div class="intro">
+            <h1> </h1>
+        </div>
+    </div>
 </body>
 </html>
